@@ -158,7 +158,8 @@ function App() {
       value : data.get("amount")
     }
     await web3.eth.sendTransaction(params);
-  }*/
+  }
+  */
 
   async function sendERC(e) {
     e.preventDefault();
